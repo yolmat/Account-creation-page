@@ -1,6 +1,6 @@
 # Account Creation Page CodeClub
 
-<img src="./img/creation.png" alt="Page for login" width="300px;">
+<img src="./img/creation.png" alt="Page for login" heigth="600px;">
 
 > Resultado do projeto Accont CodeClub.
 ### Ajustes e melhorias
