@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(50deg, rgba(0,0,0,1) 55%, rgba(75,71,71,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: block;
+    color: white;
+}
+
+.img-code {
+    display: block;
+    text-align: center;
+    margin: 20vh 0px 0px 25px;
+    width: 500px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.background {
+    background-color: #874F96;
+    margin: 12vh 18vw 0px 0px;
+    height: 800px;
+    width: 750px;
+    border-radius: 35px;
+    padding: 20px 0px 0px 30px;
+    border: 8px solid #b9c224;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 0px 0px 50px 0px #000000; 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 0px 0px 50px 0px #000000;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+}
+
+form {
+    width: 900px;
+}
+
+input {
+    width: 25em;
+    height: 2.5em;
+    border-radius: 30px;
+    padding: 0px 0px 0px 20px ;
+    margin-bottom: 25px;
+    border-color: #b9c224;
+    border-width: 4px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.you-accounts-and-genre {
+    display: inline-block;
+    width: 500px;
+    background-color: whitesmoke;
+    padding: 15px 0px 15px 50px;
+    margin: 0px 0px 30px 100px;
+    border-radius: 20px;
+}
+
+.input-choice1 {
+    display: inline;
+    width:15px;
+    margin-left: 30px;
+}
+
+.input-choice {
+    display: inline;
+    width: 15px;
+    margin: -5px 0px 0px 30px;
+}
+
+textarea {
+    padding: 10px;
+    width: 680px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    margin: 20px 0px 0px 130px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #b9c224;
+    border: 2px solid #ccc;
+}
+
+button:hover {
+    background-color: #b9c224;
+    color: #874F96;
+    border-color: #000000;
+    border: 2px solid #000000;
+}
